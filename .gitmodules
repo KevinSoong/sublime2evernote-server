@@ -1,0 +1,3 @@
+[submodule "evernote-oauth-ruby"]
+	path = evernote-oauth-ruby
+	url = git@github.com:evernote/evernote-oauth-ruby.git
