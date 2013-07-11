@@ -21,13 +21,14 @@ group :assets do
 end
 
 gem 'jquery-rails'
-
+gem 'evernote_oauth'
 
 group :development, :test do
 	gem 'rspec-rails', '>= 2.0.0.beta'
 	gem 'guard'
 	gem 'guard-rspec'
-	gem 'guard-bundler'
+	gem 'launchy'
+	gem 'capybara'
 end
 
 # To use ActiveModel has_secure_password

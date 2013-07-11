@@ -1,4 +1,6 @@
 Sublime2evernote::Application.routes.draw do
+  get 'auth', to: 'Oauth#auth'
+  get 'token', to: 'Oauth#token'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
